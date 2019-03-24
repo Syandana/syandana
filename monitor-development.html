@@ -1,0 +1,2913 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Monitor Development - SYANDANA'S PROJECT</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1548750615" title="wsite-theme-css" />
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Cardo:400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Aller/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Lora" !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#252525 !important;}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Droid Sans" !important;font-weight:400 !important;text-transform:  uppercase !important;letter-spacing: 1px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {color:#a9a9a9 !important;}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-family:"Roboto" !important;letter-spacing: 4px !important;}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Aller" !important;color:#fff !important;letter-spacing: 2px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Lora" !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:20px !important;line-height:31px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:25px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-size:14px !important;}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-size:43px !important;line-height:15px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:18px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+<style>
+.wsite-background {background-image: url("/uploads/1/1/7/1/117150753/background-images/1436807259.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
+</style>
+		<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.storeCountry = "ID";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "674971054931278007";
+			com_userID = "117150753";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = {"navpane":{"condense":1024,"forced":1}};</script><script src='http://cdn2.editmysite.com/js/site/theme-plugins.js?buildTime=1234'></script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"> window._W = window._W || {}; _W.showV2Footer = 1; </script><script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"441373493902352941","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"166808903382461461","title":"PROFILE","url":"profile.html","target":"","nav_menu":false,"nonclickable":false},{"id":"108089115979988112","title":"ARTICLES","url":"articles.html","target":"","nav_menu":false,"nonclickable":false},{"id":"741569608821708879","title":"ARTWORKS","url":"artworks.html","target":"","nav_menu":false,"nonclickable":false}],
+			"103955260146852459",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{"hasCustomMinicart":true}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class="header-page  wsite-theme-light  wsite-page-monitor-development logo-align-left "><div class="wrapper">
+	  <div class="header-wrap">
+	    <div id="topBar" class="topbar">
+	      <label class="hamburger"><span></span></label>
+	      <div class="logo"><span class="wsite-logo">
+
+	<a href="">
+	
+	<span id="wsite-title">SYANDANA'S PROJECT</span>
+	
+	</a>
+
+</span></div>
+          
+          
+	    </div><!-- end .container -->
+
+		  <div class="banner-wrap">
+				<div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div  class="wsite-section wsite-header-section wsite-section-bg-image" style="height: auto;background-image: url(&quot;/uploads/1/1/7/1/117150753/background-images/1491183464.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50.00% 53.87% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
+		<div class="wsite-section-content">
+			
+					<div class="container">
+						<div class="banner">
+				<div class="wsite-section-elements">
+					
+				</div>
+			</div>
+					</div>
+				
+		</div>
+		<div class=""></div>
+	</div>
+</div>
+
+</div>
+
+
+			</div>
+	  </div><!-- end .header-wrap -->
+
+	 <div class="w-navlist nav-wrap">
+	   	<div class="container">
+	   		<div class="nav desktop-nav"><ul class="wsite-menu-default">
+		<li id="pg441373493902352941" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg166808903382461461" class="wsite-menu-item-wrap">
+			<a
+						href="profile.html"
+				class="wsite-menu-item"
+				>
+				PROFILE
+			</a>
+			
+		</li>
+		<li id="pg108089115979988112" class="wsite-menu-item-wrap">
+			<a
+						href="articles.html"
+				class="wsite-menu-item"
+				>
+				ARTICLES
+			</a>
+			
+		</li>
+		<li id="pg741569608821708879" class="wsite-menu-item-wrap">
+			<a
+						href="artworks.html"
+				class="wsite-menu-item"
+				>
+				ARTWORKS
+			</a>
+			
+		</li>
+</ul>
+</div>
+	   	</div>
+	 </div>
+
+	<div class="main-wrap">
+		<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-14 wsite-custom-background"  >
+		<div class="wsite-section-content">
+		    <div class="container">
+			<div class="wsite-section-elements">
+				<h2 class="wsite-content-title" style="text-align:center;"><font size="5" color="#2a2a2a"><strong>Definisi Monitor Komputer</strong></font><br /></h2>
+
+<div class="paragraph"><font size="3">Monitor adalah alat terpenting yang menghubungkan manusia dengan PC. Pada saat komputer pertama beroperasi pada tahun 1938, monitor sudah berusia 83 tahun dan pengembangannya masih tetap berlangsung sampai saat ini. Perubahan dan perkembangan dari monitor komputer pun semakin lama semakin baik.<br />Dengan adanya monitor sebagai komponen output, pemakai komputer dapat dengan mudah menikmati tampilan teks atau gambar dalam layar. Ditambah lagi saat ini komputer umum digunakan sebagai media hiburan seperti menonton video, game,&nbsp;<em>video call</em>&nbsp;dan sebagainya membuat fungsi monitor begitu penting bagi sebuah komputer.</font><br /></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="5" color="#2a2a2a"><strong>Sejarah Monitor Komputer</strong></font><br /></h2>
+
+<div class="paragraph"><font size="3">Perkembangan monitor komputer yang saat ini digunakan sebenarnya terbagi menjadi dua fase. Pada fase pertama tepatnya tahun 1855 ditandai dengan penemuan tabung sinar katoda oleh ilmuwan dari Jerman, yang bernama&nbsp;<em>Heinrich Geibler</em>. Beliau merupakan bapak dari monitor tabung. Setelah 33 tahun, ahli kimia asal Austria,&nbsp;<em>Friedrich Reinitzer</em>, meletakkan dasar pengembangan teknologi LCD dengan menemukan kristal cairan. Teknologi tabung awalnya memang dikembangkan untuk merealisasikan monitor. Namun, Kristal cairan masih menjadi fenomena kimiawi selama 80 tahun berikutnya. Sejak saat itu, tampilan atau frame rate pun belum terpikirkan. Itulah fase kedua dari tahap pengembangan monitor komputer.</font><br /></div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-section-bg-image wsite-background-11 wsite-custom-background" style="height: auto;background-image: url(&quot;//cdn2.editmysite.com/images/editor/theme-background/stock/Rock-Climbing.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
+		<div class="wsite-section-content">
+		    <div class="container">
+			<div class="wsite-section-elements">
+				<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:42.037470725995%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/184668095-orig_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:57.962529274004%; padding:0 15px;">
+					
+						
+
+<div id="427933658962241705"><div><style type="text/css">
+	#element-9c0e57b5-54e3-462e-b8e3-4f1b4a7bd551 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-9c0e57b5-54e3-462e-b8e3-4f1b4a7bd551" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div class="paragraph" style="text-align:left;"><font size="2">Pada generasi awal, komputer terhubung dengan televisi sebagai layar untuk menampilkan hasil pengolahan data. Namun kendala yang terjadi adalah resolusi TV hanya mampu menampilkan 40 karakter secara horizontal pada layar. Monitor khusus untuk komputer awalnya berupa monitor monokrom yang dikeluarkan dari pihak IBM PC sekitar tahun 1970-an. Monitor tersebut beresolusi 80 x 25 dengan kemampuan warna &ldquo;green monochrome&rdquo; yang menampilkan hasil lebih terang, jelas, dan lebih stabil. Awal tahun 1980-an muncul jenis monitor CGA dengan range resolusi dari 160 x 200 sampai 640 x 200 dan kemampuan warna antara 2 sampai 16 warna. CGA (<em>Color Graphics Adapter</em>) adalah kartu grafis warna pertama dan standar display berwarna pertama untuk PC IBM. Pada dekade yang sama, IBM memperkenalkan&nbsp;<em>Monochrom Display Adapter</em>(MDA) yang hanya bisa menampilkan teks sebanyak 80 kolom dan 25 baris. Secara teori MDA ini memiliki resolusi 720 x 350. Angka ini muncul dari hasil perhitungan lebar karakter (9 piksel) dengan jumlah kolom (80 kolom) dan tinggi karakter (14 piksel) dengan jumlah baris (25 baris).</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement427933658962241705() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "427933658962241705";
+
+			_Element.prototype.element_id = "9c0e57b5-54e3-462e-b8e3-4f1b4a7bd551";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-9c0e57b5-54e3-462e-b8e3-4f1b4a7bd551'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement427933658962241705();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement427933658962241705, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement427933658962241705();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:41.818181818182%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/790468516-orig_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:58.181818181818%; padding:0 15px;">
+					
+						
+
+<div id="566844827640247036"><div><style type="text/css">
+	#element-90c61c64-e069-4214-ae1b-569dfdc205ec .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-90c61c64-e069-4214-ae1b-569dfdc205ec" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div class="paragraph"><font size="3">Kemudian pada tahun 1984, IBM memperkenalkan&nbsp;<em>Enhanched Graphics Adapter&nbsp;</em>(EGA) yang memiliki spesifikasi lebih tinggi dibandingkan dengan CGA. EGA memiliki kemampuan untuk menampikan 16 warna dengan resolusi 640 x 350 yang memungkinkan penggunaan tingkat tinggi seperti menampilkan mode grafis. Jenis monitor ini menggunakan&nbsp;<em>digital video&nbsp;</em>&ndash; sinyal TTL&nbsp;<em>(Transistor Transistor Logic)</em>&nbsp;dengan nomor diskrit yang spesifik untuk mengatur warna dan intensitas cahaya. Antara&nbsp;<em>video ada</em>pter dan monitor memiliki 2, 4, 16, atau 64 warna tergantung standar grafis yang dimiliki. Meski sudah usang, monitorini cukup stabil sehingga masih ada beberapa komputer yang menggunakannya sampai berikutnya muncul generasi komputer Windows.</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement566844827640247036() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "566844827640247036";
+
+			_Element.prototype.element_id = "90c61c64-e069-4214-ae1b-569dfdc205ec";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-90c61c64-e069-4214-ae1b-569dfdc205ec'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement566844827640247036();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement566844827640247036, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement566844827640247036();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:41.616161616162%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/542099518_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:58.383838383838%; padding:0 15px;">
+					
+						
+
+<div id="994717129931729754"><div><style type="text/css">
+	#element-aa76c231-ff29-4799-a0a0-964ab52661a5 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-aa76c231-ff29-4799-a0a0-964ab52661a5" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div class="paragraph"><font size="3">Pada tahun 1987 IBM memperkenalkan tampilan standar&nbsp;<em>Video Graphics Adapter&nbsp;</em>(VGA). VGA merupakan standard analog video dengan sinyal R (Red), G (Green) dan B (Blue) yang digunakan untuk menampilkan objek&nbsp;<em>full color</em>&nbsp;dengan intensitas yang tinggi. Meskipun standar VGA sudah tidak digunakan lagi karena sudah digantikan oleh standar yang baru, VGA masih diimplementasikan pada&nbsp;<em>Pocket PC</em>. &nbsp;</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement994717129931729754() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "994717129931729754";
+
+			_Element.prototype.element_id = "aa76c231-ff29-4799-a0a0-964ab52661a5";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-aa76c231-ff29-4799-a0a0-964ab52661a5'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement994717129931729754();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement994717129931729754, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement994717129931729754();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:41.616161616162%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/360820992_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:58.383838383838%; padding:0 15px;">
+					
+						
+
+<div id="934208480467499957"><div><style type="text/css">
+	#element-3dd5acbe-0849-4104-b09d-3442c4591fe9 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-3dd5acbe-0849-4104-b09d-3442c4591fe9" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div class="paragraph"><font size="3">Pada tahun 1987 IBM memperkenalkan tampilan standar&nbsp;<em>Video Graphics Adapter&nbsp;</em>(VGA). VGA merupakan standard analog video dengan sinyal R (Red), G (Green) dan B (Blue) yang digunakan untuk menampilkan objek&nbsp;<em>full color</em>&nbsp;dengan intensitas yang tinggi. Meskipun standar VGA sudah tidak digunakan lagi karena sudah digantikan oleh standar yang baru, VGA masih diimplementasikan pada&nbsp;<em>Pocket PC</em>. &nbsp;</font></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement934208480467499957() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "934208480467499957";
+
+			_Element.prototype.element_id = "3dd5acbe-0849-4104-b09d-3442c4591fe9";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-3dd5acbe-0849-4104-b09d-3442c4591fe9'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement934208480467499957();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement934208480467499957, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement934208480467499957();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:41.717171717172%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/302596083-orig_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:58.282828282828%; padding:0 15px;">
+					
+						
+
+<div id="999691360726030241"><div><style type="text/css">
+	#element-468852bb-41bd-41a3-8826-49c6586e500f .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-468852bb-41bd-41a3-8826-49c6586e500f" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div class="paragraph"><font size="3">&nbsp; &nbsp;Pada tahun 1990 IBM memperkenalkan standar grafis&nbsp;<em>Extended Graaphics Array</em>&nbsp;(XGA), pengembangan dari 8514/A. Generasi berikutnya yaitu XGS-2, memberikan resolusi 800 x 600 piksel yang menghasilkan 16 juta warna dan resolusi 1024 x 768 yang menghasilkan 65,536 warna. Kedua jenis resolusi ini merupakan standar grafis yang paling dikenal di masyarakat. Namun generasi monitor terbaru pada saat ini adalah teknologi&nbsp;<em>Liquid Crystal Display&nbsp;</em>(LCD) yang menggunakan sejenis kristal cair yang dapat berpendar. Teknologi ini menghasilkan monitor yang dikenal dengan nama Flat Panel Display dengan layar berbentuk pipih, dan kemampuan resolusi yang tinggi.</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement999691360726030241() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "999691360726030241";
+
+			_Element.prototype.element_id = "468852bb-41bd-41a3-8826-49c6586e500f";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-468852bb-41bd-41a3-8826-49c6586e500f'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement999691360726030241();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement999691360726030241, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement999691360726030241();
+		}
+	});
+}
+
+</script></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-15 wsite-custom-background" style="height: 4345px;" >
+		<div class="wsite-section-content">
+		    <div class="container">
+			<div class="wsite-section-elements">
+				<h2 class="wsite-content-title" style="text-align:center;"><font color="#2a2a2a">jenis - jenis monitor<br /></font></h2>
+
+<div class="paragraph"><font size="3">Monitor dapat di bagi menjadi 3 kelas, diantaranya :<br />&nbsp;Monochrome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Monitor Monokrom biasanya menampilkan dua warna, warna background dan satu&nbsp;lagi adalah warna<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; foreground. Warna tersebut adalah warna hitam dan putih, hijau dan hitam dan Kuning dan hitam.<br />Gray-scale&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; : Gray Scale monitor adalah jenis spesial dari monitor monochrome yang dapat &nbsp;menampilkan bayangan ungu<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; yang berbeda.<br />Color&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; : Monitor Color adalah monitor berwarna yang memiliki 16 hingga 1 juta warna yang berbeda. Monitor<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; berwarna ini terkadang disebut monitor RGB karena monitor&nbsp; tersebut dapat menerima 3 sinyal yang<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; berbeda, Merah (Red), Hijau (Green) dan Biru(Blue).</font><br /></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="paragraph">Jenis-jenis monitor berdasarkan teknologi pembuatannya :<br /></div>
+
+<div id="486366355243550061"><div><style type="text/css">
+	#element-de46f6ff-0f68-4220-84db-2cf46f7f4d49 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #626262;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-de46f6ff-0f68-4220-84db-2cf46f7f4d49" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div id="293868293484165015"><div><style type="text/css">
+	#element-07ef0b34-c79c-41ad-b2e7-6151303e8894 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-07ef0b34-c79c-41ad-b2e7-6151303e8894" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.846153846154%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/987973388-orig_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:66.153846153846%; padding:0 15px;">
+					
+						
+
+<div class="paragraph"><font size="3"><em>Cathod Ray Tube&nbsp;</em>(CRT) atau dalam bahasa Indonesia disebut sebagai tabung sinar katoda, ditemukan oleh&nbsp;<em>Karl Ferdinan Braun.&nbsp;</em>Awalnya monitor yang ada selama perkembangan generasi komputer, menggunakan teknologi tabung sinar katoda sebagai layar penampilnya. Monitor CRT memanfaatkan tumbukan elektron untuk memunculkan titik cahaya pada layar. Teknologi ini juga umum digunakan pada layar televisi. Karena menggunakan tabung sinar katoda, monitor jenis ini biasanya memiliki ukuran yang relatif besar dan tidak ringan.<br />Tampilan layar biasanya cembung, dan terkadang mendistorsi tampilan gambar, yang seharusnya ditampilkan datar bisa jadi tampak melengkung pada monitor CRT.</font></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement293868293484165015() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "293868293484165015";
+
+			_Element.prototype.element_id = "07ef0b34-c79c-41ad-b2e7-6151303e8894";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-07ef0b34-c79c-41ad-b2e7-6151303e8894'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement293868293484165015();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement293868293484165015, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement293868293484165015();
+		}
+	});
+}
+
+</script></div></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement486366355243550061() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#626262","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "486366355243550061";
+
+			_Element.prototype.element_id = "de46f6ff-0f68-4220-84db-2cf46f7f4d49";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-de46f6ff-0f68-4220-84db-2cf46f7f4d49'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement486366355243550061();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement486366355243550061, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement486366355243550061();
+		}
+	});
+}
+
+</script></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div id="810070579148674336"><div><style type="text/css">
+	#element-7e069c8d-b510-48bb-a223-531620e4b43f .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #626262;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-7e069c8d-b510-48bb-a223-531620e4b43f" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div id="886691111271046345"><div><style type="text/css">
+	#element-66a8a468-3cb3-4081-96e0-e8f20a168aeb .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-66a8a468-3cb3-4081-96e0-e8f20a168aeb" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/published/680211716.jpg?1517065111" alt="Picture" style="width:217;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><font size="3">&nbsp; Monitor LCD tidak lagi menggunakan tabung elektron tetapi menggunakan sejenis kristal liquid yang dapat berpendar. Teknologi ini menghasilkan monitor yang dikenal dengan nama Flat Panel Display dengan layar berbentuk pipih, dan kemampuan resolusi yang lebih tinggi dibandingkan dengan CRT. Karena bentuknya yang pipih, maka monitor jenis flat tersebut menggunakan energi yang kecil dan banyak digunakan pada komputer-komputer portabel.</font><br /></div>
+
+<div class="paragraph"><font size="3">&nbsp; &nbsp; Liquid Crystal Display menggunakan kristal liquid yang dapat berpendar. Kristal cair merupakan molekul organik kental yang mengalir seperti cairan, tetapi memiliki struktur spasial seperti kristal. (ditemukan pakar Botani Austria &ndash; Rjeinitzer) tahun 1888. Dengan menyorotkan sinar melalui kristal cair, intensitas sinar yang keluar dapat dikendalikan secara elektrik sehingga dapat membentuk panel-panel datar.</font><br /></div>
+
+<div class="paragraph"><font size="3">&nbsp; &nbsp;Kelebihan yang lain dari monitor LCD adalah adanya brightness ratio yang telah menyentuh angka 350 : 1. Brigtness ratio merupakan perbandingan antara tampilan yang paling gelap dengan tampilan yang paling terang.</font></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement886691111271046345() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "886691111271046345";
+
+			_Element.prototype.element_id = "66a8a468-3cb3-4081-96e0-e8f20a168aeb";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-66a8a468-3cb3-4081-96e0-e8f20a168aeb'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement886691111271046345();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement886691111271046345, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement886691111271046345();
+		}
+	});
+}
+
+</script></div></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement810070579148674336() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#626262","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "810070579148674336";
+
+			_Element.prototype.element_id = "7e069c8d-b510-48bb-a223-531620e4b43f";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-7e069c8d-b510-48bb-a223-531620e4b43f'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement810070579148674336();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement810070579148674336, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement810070579148674336();
+		}
+	});
+}
+
+</script></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div id="180178991121541348"><div><style type="text/css">
+	#element-dafdf221-58bd-47a3-a9df-9832ca777c70 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #626262;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-dafdf221-58bd-47a3-a9df-9832ca777c70" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div id="245703389845558770"><div><style type="text/css">
+	#element-d3f1ee3b-7b5f-4782-a688-0335620d6b3b .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-d3f1ee3b-7b5f-4782-a688-0335620d6b3b" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/editor/405502062.jpg?1517064223" alt="Picture" style="width:183;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><font size="3">&#8203;&nbsp; &nbsp; Monitor jenis ini menggabungkan teknologi CRT dengan LCD. Dengan teknologi yang dihasilkan, mampu membuat layar dengan ketipisan menyerupai LCD dan sudut pandang yang dapat selebar CRT.Plasma gas juga menggunakan fosfor seperti halnya pada teknologi CRT, tetapi layar pada plasma gas dapat perpendar tanpa adanya bantuan cahaya di belakang layar.&nbsp;</font><br /></div>
+
+<div class="paragraph"><font size="3">&nbsp;&nbsp; Teknologi OLED ditemukan oleh ilmuwan Perusahaan Eastman Kodak, Dr. Ching W. Tang pada tahun 1979. Riset di Indonesia mengenai teknologi ini dimulai pada tahun 2005. OLED diciptakan sebagai teknologi aternatif yang mampu mengungguli generasi tampilan layar sebelumnya, tampilan kristal cair (Liquid Crystal Display atau LCD). OLED terus dikembangkan dan diaplikasikan ke dalam piranti teknologi tampilan</font><br /></div>
+
+<div class="paragraph"><font size="3">&nbsp; &nbsp; Struktur OLED terdiri atas lapisan kaca terbuat dari oksida timah-indium yang berfungsi sebagai elektroda positif atau anoda, lapisan organik dari diamine aromatik dengan ketebalan 750 nm, lapisan pemancar cahaya yang terbuat dari senyawa metal kompleks misalnya 8-hydroxyquinoline aluminium, dan lapisan elektroda negatif atau katoda terbuat dari campuran logam magnesium dan perak dengan perbandingan atom 10:1. Konstruksi keseluruhan lapisan tidak lebih dari 500 nm, artinya OLED sama tipis dengan selembar kertas.</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement245703389845558770() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "245703389845558770";
+
+			_Element.prototype.element_id = "d3f1ee3b-7b5f-4782-a688-0335620d6b3b";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-d3f1ee3b-7b5f-4782-a688-0335620d6b3b'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement245703389845558770();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement245703389845558770, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement245703389845558770();
+		}
+	});
+}
+
+</script></div></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement180178991121541348() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#626262","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "180178991121541348";
+
+			_Element.prototype.element_id = "dafdf221-58bd-47a3-a9df-9832ca777c70";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-dafdf221-58bd-47a3-a9df-9832ca777c70'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement180178991121541348();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement180178991121541348, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement180178991121541348();
+		}
+	});
+}
+
+</script></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div id="180726267619952684"><div><style type="text/css">
+	#element-8800a8b1-4bf2-4615-9158-84f272006236 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #626262;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-8800a8b1-4bf2-4615-9158-84f272006236" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div id="484634010165085126"><div><style type="text/css">
+	#element-dd28a171-ead0-4e8d-8062-914df5a9bae6 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-dd28a171-ead0-4e8d-8062-914df5a9bae6" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/published/457992712-orig.jpg?1517065365" alt="Picture" style="width:259;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><font size="3">&nbsp; &nbsp; Monitor sejenis dengan monitor LCD dimana teknologinya sudah lebih maju. Monitor LED merupakan monitor yang menggunakan LED sebagai komponen penghasil warna. LED ini digunakan sebagai lampu indikator dibanyak perangkat elektronik. LED itu sendiri menggunakan cahaya pancaran diode (Light Emitting Diode) sebagai sumber cahaya. LED menggunakan diode untuk membuat banyak image yang berwarna &ndash; warni. Warna hitam akan menjadi benar &ndash; benar hitam, bukan hitam abu-abu, dan warna LED lebih realistic dibandingkan monitor LCD. Monitor LED memiliki refresh rate yang tinggi.Di dalam LED terdapat sejumlah zat kimia yang akan mengeluarkan cahaya jika elektron-elektron melewatinya. Dengan mengganti zat kimia ini, kita dapat mengganti panjang gelombang cahaya yang dipancarkan, seperti infrared, hijau atau biru atau merah dan ultraviolet.<br />&nbsp;<br />Cara kerja dari Montor LED adalah sebagai berikut :<br />&nbsp; &nbsp; &nbsp;Sebenarnya LED adalah dioda, sehingga memiliki kutub. Arah arus konvensional hanya dapat mengalir dari anoda ke katoda. 2 kawat pada LED memiliki panjang yang berbeda. Kawat yang panjang adalah anoda sedangkan yang pendek adalah katoda. Arus menentukan seberapa terang sebuah LED. Lebih besar arus maka lebih terang pula LED itu. Arus pada LED seharusnya sekitar 10 &ndash; 20 mA. Ketika arus melewati sebuah LED, jatuh tegangan pada LED sekitar 1,6 V, sebenarnya tergantung pada arus yang ada. Tegangan pada LED tidak hanya sebuah fungsi dari arus, tetapi juga warna LED dan suhu yang disebabkan perbedaan zat kimia pada LED .Datasheet LED merupakan sudut pandang yang lebar berarti cahaya tidak akan sampai jauh, tetapi akan menyebar. Lampu flash pada kamera memiliki sudut pandang yang lebar. Datasheet biasanya akan memberikan berupa angka tunggal, tetapi beberapa akan menjelaskan lebih detail dalam distribusi cahaya per sudut. Dan tentunya pada grafik panjang gelombang, terdapat nilai puncaknya. grafik ini sangat penting karena grafik inilah yang berfungsi menghubungkan LED dengan sensor warna.</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement484634010165085126() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "484634010165085126";
+
+			_Element.prototype.element_id = "dd28a171-ead0-4e8d-8062-914df5a9bae6";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-dd28a171-ead0-4e8d-8062-914df5a9bae6'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement484634010165085126();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement484634010165085126, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement484634010165085126();
+		}
+	});
+}
+
+</script></div></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement180726267619952684() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#626262","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "180726267619952684";
+
+			_Element.prototype.element_id = "8800a8b1-4bf2-4615-9158-84f272006236";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-8800a8b1-4bf2-4615-9158-84f272006236'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement180726267619952684();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement180726267619952684, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement180726267619952684();
+		}
+	});
+}
+
+</script></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div id="274435713181877614"><div><style type="text/css">
+	#element-eb7ded41-cf15-482b-96d7-0a9ad31a4300 .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #626262;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-eb7ded41-cf15-482b-96d7-0a9ad31a4300" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div id="947893323705110256"><div><style type="text/css">
+	#element-7e0a2060-1d03-425d-932d-b5236b7e827a .colored-box-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+</style><div id="element-7e0a2060-1d03-425d-932d-b5236b7e827a" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
+	<div class="colored-box">
+    <div class="colored-box-content">
+        <div style="width: auto"><div></div><div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/1/1/7/1/117150753/807270846_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><font size="3">&nbsp; &nbsp; &nbsp;&#8203;Monitor touch screen adalah sebuh kemajuan teknologi yang sangat modern. Monitor touch screen ini merupakan sebuah monitor atau perangkat komputer yang bekerja dengan adanya sentuhan tampilan layar menggunakan jari atau pena digital. Antarmuka layar sentuh, di mana pengguna mengoperasikan sistem komputer dengan menyentuh gambar atau tulisan di layar itu sendiri, merupakan cara yang paling mudah untuk mengoperasikan komputer dan kini semakin banyak digunakan dalam berbagai aplikasi. Tampilan dari monitor touch screen ini sangat baik dan halus sehingga menambah kemewahan dari monitor.<br />&nbsp;<br />&nbsp; &nbsp; Cara kerja dari monitor touch screen adalah adanya 3 buah komponen utama yang saling terhubung dan saling bekerja untuk menghasilkan kinerja yang baik. 3 komponen tersebut adalah touch sensor, controller, dan software driver. Sentuhan yang terjadi pertama akan diterima oleh komponen touch sensor yang merupakan input untuk diteruskan ke komponen yang lainnya, selanjutnya akan diteruskan ke controller yang merupakan sebuah perangkat yang digunakan untuk menghubungkan antara sensor dengan perangkat komputer yang akan memproses sentuhan tersebut. Selanjutnya yang bekerja adalah komponen pada software driver yang berfungsi untuk mengatur agar perangkat touch screen dan komputer dapat bekerja sama untuk digunakan dalam berbagai macam keperluan. Sehingga output pun akan terproses dan tertampil di layar monitor seteleh diproses oleh ketiga komponen tersebut.<br />&nbsp;</font><br /></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement947893323705110256() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#d5d5d5","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "947893323705110256";
+
+			_Element.prototype.element_id = "7e0a2060-1d03-425d-932d-b5236b7e827a";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-7e0a2060-1d03-425d-932d-b5236b7e827a'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement947893323705110256();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement947893323705110256, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement947893323705110256();
+		}
+	});
+}
+
+</script></div></div></div>
+    </div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement274435713181877614() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "848857247979793891-1.0.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function() {
+    var ColoredBox = PlatformElement.extend({
+
+        initialize: function() {
+        }
+
+    });
+
+    return ColoredBox;
+})();
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"top_padding_each":[{"top_padding_index":0},{"top_padding_index":1},{"top_padding_index":2},{"top_padding_index":3},{"top_padding_index":4},{"top_padding_index":5},{"top_padding_index":6},{"top_padding_index":7},{"top_padding_index":8},{"top_padding_index":9},{"top_padding_index":10},{"top_padding_index":11},{"top_padding_index":12},{"top_padding_index":13},{"top_padding_index":14},{"top_padding_index":15},{"top_padding_index":16},{"top_padding_index":17},{"top_padding_index":18},{"top_padding_index":19}],"bottom_padding_each":[{"bottom_padding_index":0},{"bottom_padding_index":1},{"bottom_padding_index":2},{"bottom_padding_index":3},{"bottom_padding_index":4},{"bottom_padding_index":5},{"bottom_padding_index":6},{"bottom_padding_index":7},{"bottom_padding_index":8},{"bottom_padding_index":9},{"bottom_padding_index":10},{"bottom_padding_index":11},{"bottom_padding_index":12},{"bottom_padding_index":13},{"bottom_padding_index":14},{"bottom_padding_index":15},{"bottom_padding_index":16},{"bottom_padding_index":17},{"bottom_padding_index":18},{"bottom_padding_index":19}],"left_padding_each":[{"left_padding_index":0},{"left_padding_index":1},{"left_padding_index":2},{"left_padding_index":3},{"left_padding_index":4},{"left_padding_index":5},{"left_padding_index":6},{"left_padding_index":7},{"left_padding_index":8},{"left_padding_index":9},{"left_padding_index":10},{"left_padding_index":11},{"left_padding_index":12},{"left_padding_index":13},{"left_padding_index":14},{"left_padding_index":15},{"left_padding_index":16},{"left_padding_index":17},{"left_padding_index":18},{"left_padding_index":19}],"right_padding_each":[{"right_padding_index":0},{"right_padding_index":1},{"right_padding_index":2},{"right_padding_index":3},{"right_padding_index":4},{"right_padding_index":5},{"right_padding_index":6},{"right_padding_index":7},{"right_padding_index":8},{"right_padding_index":9},{"right_padding_index":10},{"right_padding_index":11},{"right_padding_index":12},{"right_padding_index":13},{"right_padding_index":14},{"right_padding_index":15},{"right_padding_index":16},{"right_padding_index":17},{"right_padding_index":18},{"right_padding_index":19}],"background_color":"#626262","opacity":100,"top_left_radius":0,"top_right_radius":0,"bottom_left_radius":0,"bottom_right_radius":0,"top_padding":20,"bottom_padding":20,"left_padding":20,"right_padding":20});
+			_Element.prototype.settings.page_element_id = "274435713181877614";
+
+			_Element.prototype.element_id = "eb7ded41-cf15-482b-96d7-0a9ad31a4300";
+			_Element.prototype.user_id = "117150753";
+			_Element.prototype.site_id = "674971054931278007";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/elements/848857247979793891-1.0.1/assets/";
+			new _Element({
+				el: '#element-eb7ded41-cf15-482b-96d7-0a9ad31a4300'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement274435713181877614();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement274435713181877614, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement274435713181877614();
+		}
+	});
+}
+
+</script></div></div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-section-bg-image wsite-background-16 wsite-custom-background" style="height: auto;background-image: url(&quot;//cdn2.editmysite.com/images/editor/theme-background/stock/Dawn-Sky.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
+		<div class="wsite-section-content">
+		    <div class="container">
+			<div class="wsite-section-elements">
+				<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div>
+	<form enctype="multipart/form-data" action="//www.weebly.com/weebly/apps/formSubmit.php" method="POST" id="form-802283161787725183">
+		<div id="802283161787725183-form-parent" class="wsite-form-container"
+				 style="margin-top:10px;">
+			<ul class="formlist" id="802283161787725183-form-list">
+				<h2 class="wsite-content-title">Quick survey<br /></h2>
+
+<label class="wsite-form-label wsite-form-fields-required-label"><span class="form-required">*</span> Indicates required field</label><div><div class="wsite-form-field" style="margin:15px 0px 0px 0px;">
+  <label class="wsite-form-label" for="input-750611759931658888">Bagaimana Menurut Kalian Tentang Halaman Ini? <span class="form-required">*</span></label>
+  <div class="wsite-form-radio-container" aria-role="radiogroup" aria-required="true">
+    <span class='form-radio-container'><input type='radio' id='radio-0-_u750611759931658888' name='_u750611759931658888' value='Sangat Membantu' /><label for='radio-0-_u750611759931658888'>Sangat Membantu</label></span>
+<span class='form-radio-container'><input type='radio' id='radio-1-_u750611759931658888' name='_u750611759931658888' value='Butuh Pengembangan' /><label for='radio-1-_u750611759931658888'>Butuh Pengembangan</label></span>
+<span class='form-radio-container'><input type='radio' id='radio-2-_u750611759931658888' name='_u750611759931658888' value='Lainnya' /><label for='radio-2-_u750611759931658888'>Lainnya</label></span>
+
+  </div>
+  <div id="instructions-Bagaimana Menurut Kalian Tentang Halaman Ini?" class="wsite-form-instructions" style="display:none;"></div>
+</div></div>
+
+<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+				<label class="wsite-form-label" for="input-552431324528774619">Jika Lainnya, Silahkan Ketik Pendapat Anda <span class="form-not-required">*</span></label>
+				<div class="wsite-form-input-container">
+					<input id="input-552431324528774619" class="wsite-form-input wsite-input wsite-input-width-285px" type="text" name="_u552431324528774619" />
+				</div>
+				<div id="instructions-552431324528774619" class="wsite-form-instructions" style="display:none;"></div>
+			</div></div>
+			</ul>
+			
+		</div>
+		<div style="display:none; visibility:hidden;">
+			<input type="text" name="wsite_subject" />
+		</div>
+		<div style="text-align:left; margin-top:10px; margin-bottom:10px;">
+			<input type="hidden" name="form_version" value="2" />
+			<input type="hidden" name="wsite_approved" id="wsite-approved" value="approved" />
+			<input type="hidden" name="ucfid" value="802283161787725183" />
+			<input type="hidden" name="recaptcha_token"/>
+			<input type="submit" style="position:absolute;top:0;left:-9999px;width:1px;height:1px" />
+			<a class="wsite-button">
+				<span class="wsite-button-inner">Submit</span>
+			</a>
+		</div>
+	</form>
+	<div id="g-recaptcha-802283161787725183" class="recaptcha" data-size="invisible" data-recaptcha="1" data-sitekey="6Ldf5h8UAAAAAJFJhN6x2OfZqBvANPQcnPa8eb1C"></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div style="text-align:center;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="https://drive.google.com/open?id=1WvzDsX12oPuTlO3bO6O6stfbIY_rvPcR" target="_blank">
+<span class="wsite-button-inner">download file disini</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+	  </div>
+
+    <div class="footer-wrap">
+    	<div class="container">
+    		<div class="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
+    	</div><!-- end container -->
+    </div><!-- end footer-wrap -->
+	</div>
+
+	<div class="w-navpane nav mobile-nav">
+		<label class="hamburger w-navpane-trigger"><span></span></label>
+		<ul class="wsite-menu-default">
+				<li id="pg441373493902352941" class="wsite-menu-item-wrap">
+					<a
+								href="index.html"
+						class="wsite-menu-item"
+						>
+						Home
+					</a>
+					
+				</li>
+				<li id="pg166808903382461461" class="wsite-menu-item-wrap">
+					<a
+								href="profile.html"
+						class="wsite-menu-item"
+						>
+						PROFILE
+					</a>
+					
+				</li>
+				<li id="pg108089115979988112" class="wsite-menu-item-wrap">
+					<a
+								href="articles.html"
+						class="wsite-menu-item"
+						>
+						ARTICLES
+					</a>
+					
+				</li>
+				<li id="pg741569608821708879" class="wsite-menu-item-wrap">
+					<a
+								href="artworks.html"
+						class="wsite-menu-item"
+						>
+						ARTWORKS
+					</a>
+					
+				</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="files/theme/plugins.js"></script>
+	<script type="text/javascript" src="files/theme/custom.js"></script>
+    <div id="customer-accounts-app"></div>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+
+		
+	</body>
+</html>
